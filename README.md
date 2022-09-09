@@ -19,7 +19,7 @@ Open the scripts you'll use and:
  * put the ID of your course into `courseid = `
 
 
-I've split this into 3 sections depending on what you already have and want to acheive
+I've split the next into 3 sections depending on what you already have and want to acheive
 
 * Properaly format and create the dictionary file - [Create dictionary](#create-dictionary)
 * Auto complete levels - [Levels](#levels)
@@ -31,6 +31,12 @@ You can use or modify my included `dictionaryscraper.py` (it only scrapes up to 
 
 If you want to use my included `dictionaryscraper.py`:
   * Create a file named `memrise.json` in the same folder
-  * Put your chromedriver path in `PATH = `
-  * Put your course's ID in `courseid = `
   * Find `level == ` and change that to the number of total levels in the course
+  * **NOTE - This scraper is written to get a max of 16 words per level (feel free to change that)**
+
+If you want to create your own scraper:
+ * Make sure it is formatted as my example `memrise.json`
+
+## Levels
+
+
